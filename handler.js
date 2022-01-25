@@ -137,6 +137,8 @@ module.exports.run = async () => {
   const { winners: ydayWinners, topScore: ydayScore } = getWinners(results[String(yesterday)]);
 
   const content = `A new Wordle is out! https://www.powerlanguage.co.uk/wordle/
+  
+  //imagine being bad by the way - ur bad
 
 📊 Stats: 
 
