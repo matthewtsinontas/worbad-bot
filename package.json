@@ -1,0 +1,13 @@
+{
+  "name": "worbad-bot",
+  "version": "1.0.0",
+  "description": "Wordle report generator for discord",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "worbad": "serverless invoke local --function worbad"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}

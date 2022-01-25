@@ -1,0 +1,19 @@
+org: matthewtsinontas
+app: worbad-bot
+service: worbad-bot
+
+frameworkVersion: '2 || 3'
+
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+  region: eu-west-2
+
+functions:
+  worbad:
+    handler: handler.run
+    events:
+      - schedule: cron(0 0 * * ? *)
+

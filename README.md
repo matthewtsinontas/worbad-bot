@@ -1,0 +1,1 @@
+Bot script for Discord that summarises the daily wordle posts, generates a report, then posts it back as a comment
