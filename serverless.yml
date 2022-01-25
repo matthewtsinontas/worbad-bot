@@ -14,6 +14,9 @@ provider:
 functions:
   worbad:
     handler: handler.run
+    environment:
+      BOT_TOKEN: ${param:<BOT_TOKEN>}
+      CHANNEL_ID: ${param:<CHANNEL_ID>}
     events:
       - schedule: cron(0 0 * * ? *)
 
